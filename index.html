@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BS 5</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navber -->
+
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white text-white" href="#">LOGO</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#">Contact</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white fw-bold"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Rameem</a></li>
+                <li><a class="dropdown-item" href="">Fahmida</a></li>
+                <li><a class="dropdown-item" href="">Rasel</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navber end -->
+
+    <div class="banner"></div>
+
+    <!-- modal -->
+    <!-- <button
+      type="button"
+      class="btn btn-primary my-4"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Show Modal
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              beatae alias veniam quos molestiae odit explicabo ut adipisci,
+              tempore officia cum! Error veniam maxime, itaque quaerat esse
+              eveniet aperiam, quibusdam officia incidunt unde fugit numquam
+              minus! Inventore explicabo, consequatur soluta sint cupiditate
+              totam nostrum at praesentium cum. Voluptatibus, iste saepe iure
+              quidem tempore doloremque officia dolore unde voluptas tempora
+              suscipit molestiae sunt laboriosam. Labore nemo, nam, quaerat
+              dolorem consequuntur autem expedita quisquam, quidem sint
+              repellendus quas omnis ducimus est ipsum dolores illo iure tenetur
+              velit. Harum, in incidunt. Officia alias a laudantium, consectetur
+              blanditiis quaerat nemo minima error earum sit quidem sunt quae
+              voluptatibus aspernatur. Dolorem, blanditiis? Doloremque ipsum
+              aliquid commodi consequatur similique recusandae eligendi nisi
+              animi deserunt, nobis iure harum. Error nisi autem, consequuntur
+              exercitationem, accusantium adipisci ex natus alias odit dolore
+              voluptate optio neque magnam magni voluptatem, veritatis dolores
+              pariatur consectetur corporis? Veniam perspiciatis quis magnam id
+              exercitationem.
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- modal end -->
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://republic-of-legends.netlify.app/assets/gallery11-41a54def.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-primary">First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="https://republic-of-legends.netlify.app/assets/gallery12-ff4233b6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-primary">Second slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="https://republic-of-legends.netlify.app/assets/gallery0-ddb358e7.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-primary">Third slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel end -->
+
+    <!-- card -->
+    <div
+      class="container d-flex align-items-center justify-content-between flex-wrap"
+    >
+      <div class="card w-25 m-3">
+        <img
+          class="card-img-top"
+          src="https://republic-of-legends.netlify.app/assets/banner-79747b6c.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">ROL</h5>
+          <h6 class="card-subtitle text-secondary">Legends</h6>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quas
+            pariatur quo consectetur, quam assumenda exercitationem sint aliquam
+            similique quasi.
+          </p>
+
+          <button type="button" class="btn btn-primary">Show</button>
+        </div>
+      </div>
+
+      <div class="card w-25 m-3">
+        <img
+          class="card-img-top"
+          src="https://republic-of-legends.netlify.app/assets/banner-79747b6c.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">ROL</h5>
+          <h6 class="card-subtitle text-secondary">Legends</h6>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quas
+            pariatur quo consectetur, quam assumenda exercitationem sint aliquam
+            similique quasi.
+          </p>
+
+          <button type="button" class="btn btn-primary">Show</button>
+        </div>
+      </div>
+
+      <div class="card w-25 m-3">
+        <img
+          class="card-img-top"
+          src="https://republic-of-legends.netlify.app/assets/banner-79747b6c.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">ROL</h5>
+          <h6 class="card-subtitle text-secondary">Legends</h6>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quas
+            pariatur quo consectetur, quam assumenda exercitationem sint aliquam
+            similique quasi.
+          </p>
+
+          <button type="button" class="btn btn-primary">Show</button>
+        </div>
+      </div>
+
+      <div class="card w-25 m-3">
+        <img
+          class="card-img-top"
+          src="https://republic-of-legends.netlify.app/assets/banner-79747b6c.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">ROL</h5>
+          <h6 class="card-subtitle text-secondary">Legends</h6>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quas
+            pariatur quo consectetur, quam assumenda exercitationem sint aliquam
+            similique quasi.
+          </p>
+
+          <button type="button" class="btn btn-primary">Show</button>
+        </div>
+      </div>
+
+      <div class="card w-25 m-3">
+        <img
+          class="card-img-top"
+          src="https://republic-of-legends.netlify.app/assets/banner-79747b6c.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">ROL</h5>
+          <h6 class="card-subtitle text-secondary">Legends</h6>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quas
+            pariatur quo consectetur, quam assumenda exercitationem sint aliquam
+            similique quasi.
+          </p>
+
+          <button type="button" class="btn btn-primary">Show</button>
+        </div>
+      </div>
+
+      <div class="card w-25 m-3">
+        <img
+          class="card-img-top"
+          src="https://republic-of-legends.netlify.app/assets/banner-79747b6c.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">ROL</h5>
+          <h6 class="card-subtitle text-secondary">Legends</h6>
+          <p class="card-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quas
+            pariatur quo consectetur, quam assumenda exercitationem sint aliquam
+            similique quasi.
+          </p>
+
+          <button type="button" class="btn btn-primary">Show</button>
+        </div>
+      </div>
+    </div>
+    <!-- card end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
