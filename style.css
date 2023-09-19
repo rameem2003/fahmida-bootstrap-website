@@ -36,7 +36,6 @@ nav {
 }
 
 .services {
-  height: 100vh;
   background-color: #111827;
   padding: 180px 0;
 }
@@ -49,11 +48,61 @@ nav {
   font-size: 50px;
 }
 
+.portfolio {
+  background-color: #020617;
+  padding: 180px 0;
+}
+
+.contact {
+  background-color: #020617;
+  padding: 180px 0;
+}
+
+.contact input {
+  background-color: #1f2937;
+}
+
+.contact input::placeholder {
+  color: white;
+}
+
+.contact textarea {
+  resize: none;
+  background-color: #1f2937;
+}
+
+.contact textarea::placeholder {
+  color: white;
+}
+
+footer {
+  background-color: #020617;
+  padding: 180px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer ul li a {
+  font-size: 22px;
+  color: #1f2937;
+}
+
+footer ul li a:hover {
+  color: #eab308;
+}
+
 @media screen and (max-width: 500px) {
   .banner,
   .about,
   .services {
     padding: 50px 0;
+    height: auto;
   }
 
   .about .img-frame {
